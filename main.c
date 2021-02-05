@@ -5,6 +5,7 @@
 #define LIN 6
 #define COL 7
 
+//TODO put functions in .h files to make the main file leaner and easier to use
 
 /*
  * v v v   fonctions liées au puissance4   v v v
