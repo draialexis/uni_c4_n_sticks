@@ -31,21 +31,21 @@ int checkForV(char arr[LIN][COL], char c) {
                 continue;
             }
             if (j + 3 < COL && x == arr[i][j + 1] && x == arr[i][j + 2] && x == arr[i][j + 3]) {
-                arr[i][j] = arr[i][j + 1] = arr[i][j + 2] = arr[i][j + 3] = 'W';
+                arr[i][j] = arr[i][j + 1] = arr[i][j + 2] = arr[i][j + 3] = winChar;
                 return 1;
             }
             if (i + 3 < LIN && x == arr[i + 1][j] && x == arr[i + 2][j] && x == arr[i + 3][j]) {
-                arr[i][j] = arr[i + 1][j] = arr[i + 2][j] = arr[i + 3][j] = 'W';
+                arr[i][j] = arr[i + 1][j] = arr[i + 2][j] = arr[i + 3][j] = winChar;
                 return 1;
             }
             if (j + 3 < COL && i + 3 < LIN && x == arr[i + 1][j + 1] && x == arr[i + 2][j + 2] &&
                 x == arr[i + 3][j + 3]) {
-                arr[i][j] = arr[i + 1][j + 1] = arr[i + 2][j + 2] = arr[i + 3][j + 3] = 'W';
+                arr[i][j] = arr[i + 1][j + 1] = arr[i + 2][j + 2] = arr[i + 3][j + 3] = winChar;
                 return 1;
             }
             if (j >= 3 && i + 3 < LIN && x == arr[i + 1][j - 1] && x == arr[i + 2][j - 2] &&
                 x == arr[i + 3][j - 3]) {
-                arr[i][j] = arr[i + 1][j - 1] = arr[i + 2][j - 2] = arr[i + 3][j - 3] = 'W';
+                arr[i][j] = arr[i + 1][j - 1] = arr[i + 2][j - 2] = arr[i + 3][j - 3] = winChar;
                 return 1;
             }
         }

@@ -6,7 +6,7 @@
 
 int main() {
     int gameNb = 0;
-    int winner = 0;
+    int winner;
     while (gameNb != 1 && gameNb != 2) {
         printf("choisissez un jeu :\n 1 -- batonnets\n 2 -- puissance4\n\n-1 -- quitter le menu\n");
 
