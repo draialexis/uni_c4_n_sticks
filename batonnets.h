@@ -47,5 +47,4 @@ int batonnets() {
     // -> "joueur actuel est #2? si oui, return 1 -- sinon, return 2"
 }
 
-
 #endif //C4_N_STICKS_BATONNETS_H
