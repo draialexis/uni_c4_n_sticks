@@ -3,4 +3,4 @@ project(c4_n_sticks C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(uni main.c)
+add_executable(c4_n_sticks main.c)
